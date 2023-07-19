@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    {{> head_links}}
 </head>
 <body>
-    <h1>Esta es la pagina con HBS</h1>
-    {{> head}}
+    <div class="page-content">
+        <section class="head-section">
+            <div class="layer"></div>
+            <img src="./src/img/nature.jpg" alt="" class="img-fondo">
+            {{> head}}
+        </section>
+    </div>
 </body>
 </html>
