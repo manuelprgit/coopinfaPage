@@ -1,16 +1,24 @@
 $Poppins: 'Poppins', sans-serif;
 $Nunito: 'Nunito', sans-serif;
 
-
-
 $white: #EBEBEB;
 $black: #484848;
+
+$grey: #677183;
+$blue: #3FB6FF;
+$blue-soft: #D7F0FF;
+$red: #FF4858;
+$red-soft: #FFE0E3;
+$orange: #CE8501;
+$orange-soft: #FFDB9B;
 
 $green-15: #CCFF33;
 $green-25: #9EF01A;
 $green-50: #70E000;
 $green-75: #008000;
 $green-100: #006400;
+
+$background-layer: #0000007d; 
 
 //#region Reset CSS 
 
@@ -173,6 +181,9 @@ table {
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+  a{
+    text-decoration: none;
+  }
 
 
 //#endregion Reset CSS
@@ -186,7 +197,7 @@ table {
                 position: absolute;
                 width: 100%;
                 height: 100%;
-                background-color: #0000007d;
+                background-color: $background-layer;
                 z-index: -1;
 
             }
@@ -235,8 +246,8 @@ table {
                 align-items: center;
                 gap: 6px;
                 figure{
-                    width: 32px;
-                    height: 32px;
+                    width: 20px;
+                    height: 20px;
                     img{
                         object-fit: contain;
                     }
@@ -275,10 +286,11 @@ table {
                 li{
                     display: flex;
                     gap: 6px;
-                    figure{
 
+                    figure{
                         width: 16px;
                         height: 16px;
+
                         img{
                             object-fit: contain;
                         }
@@ -286,6 +298,16 @@ table {
                 }
             }
         }
-        .contact{}
+        .contact{
+            .contact-content{
+                display: flex;
+                gap: 14px;
+                .detail{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                }
+            }
+        }
     }
 }
