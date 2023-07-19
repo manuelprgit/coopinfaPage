@@ -3,16 +3,16 @@ const app = express();
 const path = require('path');
 const hbs = require('hbs');
 const port = 3009;
-
-// app.use(express.static(`${__dirname}/public`));
+ 
 app.set('view engine','hbs');
-app.set('views', './public/views')
+app.set('views', './public/html')
 
-hbs.registerPartials(path.join(__dirname, '/public/views/partials'));
-app.use(express.static(path.join(`${__dirname}/public`)));
+hbs.registerPartials(path.join(__dirname, '/public/html/views/partials'));
+app.use(express.static(path.join(`${__dirname}/public/html`)));
+
 
 app.get('/',(req,res) => {
-  res.render('index');
+  res.render('home');
 });
 
 

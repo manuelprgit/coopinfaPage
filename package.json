@@ -8,6 +8,9 @@
     "sass": "sass --watch ./public/sass/main.scss:./public/css/main.css",
     "dev": "nodemon ."
   },
+  "nodemonConfig": {
+    "ext": "js,json,hbs,html"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
