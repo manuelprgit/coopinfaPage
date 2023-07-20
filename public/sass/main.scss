@@ -358,7 +358,7 @@ table {
 
     .form-section{
         padding: 60px;
-        background: $white;
+        background: $background-division;
         display: grid;
         place-items: center;
         .form-content{
@@ -409,30 +409,30 @@ table {
                         color: #bababa;
                     }
                 }
-            }
-            .button-content{
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                margin-bottom: 12px;
-
-                button{
-                    width: 150px;
-                    height: 40px;
-                    border-radius: 12px;
-                    border: none;
-                    background-color: $green-75;
-                    color: $white;
-                    font-weight: 600;
-                    font-size: 1.6rem;
-                    cursor: pointer;
-                    outline: none;
-                }
-                button:hover{
-                    background-color: #036803;
-                }
-                button:active{
-                    background-color: #004800;
+                .button-content{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 12px;
+    
+                    button{
+                        width: 150px;
+                        height: 40px;
+                        border-radius: 12px;
+                        border: none;
+                        background-color: $green-75;
+                        color: $white;
+                        font-weight: 600;
+                        font-size: 1.6rem;
+                        cursor: pointer;
+                        outline: none;
+                    }
+                    button:hover{
+                        background-color: #036803;
+                    }
+                    button:active{
+                        background-color: #004800;
+                    }
                 }
             }
             .suscribe-detail{

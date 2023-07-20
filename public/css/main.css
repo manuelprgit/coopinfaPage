@@ -301,7 +301,7 @@ a {
 }
 .page-content .form-section {
   padding: 60px;
-  background: #EBEBEB;
+  background: #F8F8F8;
   display: grid;
   place-items: center;
 }
@@ -352,13 +352,13 @@ a {
 .page-content .form-section .form-content form .input-form input::placeholder {
   color: #bababa;
 }
-.page-content .form-section .form-content .button-content {
+.page-content .form-section .form-content form .button-content {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 12px;
 }
-.page-content .form-section .form-content .button-content button {
+.page-content .form-section .form-content form .button-content button {
   width: 150px;
   height: 40px;
   border-radius: 12px;
@@ -370,10 +370,10 @@ a {
   cursor: pointer;
   outline: none;
 }
-.page-content .form-section .form-content .button-content button:hover {
+.page-content .form-section .form-content form .button-content button:hover {
   background-color: #036803;
 }
-.page-content .form-section .form-content .button-content button:active {
+.page-content .form-section .form-content form .button-content button:active {
   background-color: #004800;
 }
 .page-content .form-section .form-content .suscribe-detail {
