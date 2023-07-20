@@ -150,6 +150,10 @@ a {
   text-align: center;
   line-height: 28px;
 }
+.page-content .welcome-section {
+  font-size: 1.6rem;
+}
+
 .head {
   display: flex;
   flex-direction: column;
