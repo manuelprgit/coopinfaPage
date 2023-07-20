@@ -4,6 +4,8 @@ $Nunito: 'Nunito', sans-serif;
 $white: #EBEBEB;
 $black: #484848;
 
+$background-division: #F8F8F8;
+
 $grey: #677183;
 $blue: #3FB6FF;
 $blue-soft: #D7F0FF;
@@ -19,6 +21,8 @@ $green-75: #008000;
 $green-100: #006400;
 
 $background-layer: #0000007d; 
+
+$cards-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.12);
 
 //#region Reset CSS 
 
@@ -187,6 +191,68 @@ table {
 
     .welcome-section{
         font-size: 1.6rem;
+        display: flex;
+        background-color: $background-division;
+        padding: 60px 72px;
+
+        .images-content{
+            width: 70%;
+            display: grid;
+            place-items: center;
+            gap: 10px;
+            grid-template-columns: repeat(3, auto);
+            padding: 0 60px;
+ 
+            figure{
+                width: 100%;
+                height: 100%;
+                border-radius: 14px;
+                overflow: hidden;
+                box-shadow: $cards-shadow;
+            }
+            figure:nth-child(1){height: 45%;}
+            figure:nth-child(2){
+                height: 84%;
+                width: 78%;
+            } 
+
+        }
+        .welcome-info-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 30%;
+
+            h2{
+                font-size: 3rem;
+                color: $green-75;
+            }
+            .introducing{
+                padding: 50px 0;
+                line-height: 28px;
+                width: 376px;
+            }
+            p{
+                font-size: 1.8rem;
+                color: $grey;
+            }
+            .list-benefits{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                .benefit{
+                    display: flex;
+                    align-items: center;
+                    figure{
+                        width: 36px;
+                        height: 36px;
+                    }
+                    p{
+                        margin-left: 16px;
+                    }
+                }
+            }
+        }
     }
 }
 

@@ -152,6 +152,66 @@ a {
 }
 .page-content .welcome-section {
   font-size: 1.6rem;
+  display: flex;
+  background-color: #F8F8F8;
+  padding: 60px 72px;
+}
+.page-content .welcome-section .images-content {
+  width: 70%;
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  grid-template-columns: repeat(3, auto);
+  padding: 0 60px;
+}
+.page-content .welcome-section .images-content figure {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.12);
+}
+.page-content .welcome-section .images-content figure:nth-child(1) {
+  height: 45%;
+}
+.page-content .welcome-section .images-content figure:nth-child(2) {
+  height: 84%;
+  width: 78%;
+}
+.page-content .welcome-section .welcome-info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+.page-content .welcome-section .welcome-info-content h2 {
+  font-size: 3rem;
+  color: #008000;
+}
+.page-content .welcome-section .welcome-info-content .introducing {
+  padding: 50px 0;
+  line-height: 28px;
+  width: 376px;
+}
+.page-content .welcome-section .welcome-info-content p {
+  font-size: 1.8rem;
+  color: #677183;
+}
+.page-content .welcome-section .welcome-info-content .list-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.page-content .welcome-section .welcome-info-content .list-benefits .benefit {
+  display: flex;
+  align-items: center;
+}
+.page-content .welcome-section .welcome-info-content .list-benefits .benefit figure {
+  width: 36px;
+  height: 36px;
+}
+.page-content .welcome-section .welcome-info-content .list-benefits .benefit p {
+  margin-left: 16px;
 }
 
 .head {
