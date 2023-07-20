@@ -279,6 +279,88 @@ a {
   margin-top: 38px;
   display: block;
 }
+.page-content .form-section {
+  padding: 60px;
+  background: #EBEBEB;
+  display: grid;
+  place-items: center;
+}
+.page-content .form-section .form-content {
+  width: 390px;
+  height: 456px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.12);
+  padding: 28px 46px;
+}
+.page-content .form-section .form-content h2 {
+  font-size: 3.4rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #008000;
+}
+.page-content .form-section .form-content form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.page-content .form-section .form-content form .input-form {
+  margin-bottom: 26px;
+}
+.page-content .form-section .form-content form .input-form p {
+  font-size: 1.6rem;
+  color: #677183;
+}
+.page-content .form-section .form-content form .input-form p:nth-child(1) {
+  position: relative;
+  top: 6px;
+  color: #FF4858;
+}
+.page-content .form-section .form-content form .input-form p:nth-child(2) {
+  margin-left: 12px;
+  margin-bottom: 12px;
+}
+.page-content .form-section .form-content form .input-form input {
+  font-size: 1.8rem;
+  text-align: center;
+  border-bottom: solid 1px;
+  width: 100%;
+  outline: none;
+  padding-bottom: 4px;
+}
+.page-content .form-section .form-content form .input-form input::placeholder {
+  color: #bababa;
+}
+.page-content .form-section .form-content .button-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.page-content .form-section .form-content .button-content button {
+  width: 150px;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  background-color: #008000;
+  color: #EBEBEB;
+  font-weight: 600;
+  font-size: 1.6rem;
+  cursor: pointer;
+  outline: none;
+}
+.page-content .form-section .form-content .button-content button:hover {
+  background-color: #036803;
+}
+.page-content .form-section .form-content .button-content button:active {
+  background-color: #004800;
+}
+.page-content .form-section .form-content .suscribe-detail {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #677183;
+}
 
 .head {
   display: flex;
