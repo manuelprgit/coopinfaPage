@@ -1,81 +1,7 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-input,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, input, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th,
+td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
 time,
 mark,
 audio,
@@ -84,6 +10,7 @@ video {
   padding: 0;
   border: 0;
   font: inherit;
+  font-size: 62.5%;
   font-family: "Poppins", sans-serif;
   vertical-align: baseline;
   box-sizing: border-box;
@@ -179,7 +106,50 @@ a {
   height: 100%;
   z-index: -2;
 }
-
+.page-content .head-section .text-content {
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-content .head-section .text-content h1 {
+  color: #EBEBEB;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 58px;
+  width: 70%;
+  min-width: 1200px;
+}
+.page-content .loan-info-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 68px;
+}
+.page-content .loan-info-content .type-loan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-content .loan-info-content .type-loan figure {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 16px;
+}
+.page-content .loan-info-content .type-loan p:nth-child(2) {
+  font-size: 2.2rem;
+  color: #008000;
+  font-weight: 500;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.page-content .loan-info-content .type-loan p:nth-child(3) {
+  font-size: 2rem;
+  color: grey;
+  width: 200px;
+  text-align: center;
+  line-height: 28px;
+}
 .head {
   display: flex;
   flex-direction: column;
@@ -225,10 +195,7 @@ a {
 }
 .head .company-info-content .company-info .grouper-content a {
   color: #EBEBEB;
-  text-decoration: none;
-}
-.head .company-info-content .company-info .grouper-content a:hover {
-  text-decoration: underline;
+  font-size: 1.6rem;
 }
 .head .app-bar {
   background-color: #EBEBEB;
@@ -251,12 +218,8 @@ a {
   display: flex;
   gap: 6px;
 }
-.head .app-bar .menu-content ul li figure {
-  width: 16px;
-  height: 16px;
-}
-.head .app-bar .menu-content ul li figure img {
-  object-fit: contain;
+.head .app-bar .menu-content ul li a {
+  font-size: 1.6rem;
 }
 .head .app-bar .contact .contact-content {
   display: flex;
@@ -266,6 +229,17 @@ a {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  font-size: 1.8rem;
+}
+
+a {
+  color: #484848;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=main.css.map */
