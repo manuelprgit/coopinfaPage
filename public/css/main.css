@@ -213,6 +213,72 @@ a {
 .page-content .welcome-section .welcome-info-content .list-benefits .benefit p {
   margin-left: 16px;
 }
+.page-content .news-section {
+  padding: 60px;
+}
+.page-content .news-section .our-blog {
+  text-align: center;
+  color: #70E000;
+  font-size: 1.8rem;
+  margin-bottom: 22px;
+}
+.page-content .news-section .recent-news, .page-content .news-section .visit-us {
+  text-align: center;
+  font-size: 3.2rem;
+  color: #008000;
+  font-weight: 400;
+  margin-bottom: 34px;
+}
+.page-content .news-section .news-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+.page-content .news-section .news-content .news-card {
+  width: 350px;
+  height: 460px;
+  box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.page-content .news-section .news-content .news-card .detail-content {
+  padding: 36px;
+}
+.page-content .news-section .news-content .news-card .detail-content .date-coment {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.page-content .news-section .news-content .news-card .detail-content .date-coment .item-content {
+  display: flex;
+  align-items: center;
+}
+.page-content .news-section .news-content .news-card .detail-content .date-coment .item-content figure {
+  width: 24px;
+  height: 24px;
+}
+.page-content .news-section .news-content .news-card .detail-content .date-coment .item-content figure img {
+  object-fit: contain;
+}
+.page-content .news-section .news-content .news-card .detail-content .date-coment .item-content p {
+  font-size: 1.4rem;
+  width: 100%;
+  margin-left: 6px;
+}
+.page-content .news-section .news-content .news-card .detail-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 18px;
+}
+.page-content .news-section .news-content .news-card .detail-content p {
+  font-size: 1.6rem;
+  line-height: 22px;
+  color: #677183;
+}
+.page-content .news-section .visit-us {
+  margin-bottom: 0;
+  margin-top: 38px;
+  display: block;
+}
 
 .head {
   display: flex;
