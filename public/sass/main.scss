@@ -21,6 +21,7 @@ $green-75: #008000;
 $green-100: #006400;
 
 $background-layer: #0000007d; 
+$footer-backgroud: #222222;
 
 $cards-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.12);
 
@@ -558,6 +559,108 @@ table {
     }
 }
 
+footer{
+    background-color: $footer-backgroud;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 60px;
+    .foot-content{
+        max-width: 1500px;
+        width: 100%;
+        .company-info-data{
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 32px;
+            .info-container{ 
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 20px;
+
+                figure{
+                    width: 52px;
+                    height: 52px;
+                    img{
+                        object-fit: contain;
+                    }
+                }
+                a,
+                p{
+                    color: white;
+                    font-size: 1.8rem;
+                    text-align: center;
+                }
+            }
+        }
+        .bottom-content{
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 24px;
+
+            .institutions-content{
+                display: flex;
+                flex-direction: column;
+
+                h4,
+                a{
+                    color: white;
+                    font-size: 1.8rem;
+                    margin-bottom: 24px;
+                } 
+                h4{
+                    font-weight: 600;
+                }
+                a{
+                    font-weight: 300;
+                }
+            }
+            .subscribes-content{
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    
+                    h4{
+                        color: white;
+                        font-weight: 600;
+                        font-size: 1.8rem;
+                        margin-bottom: 24px;
+                    }
+
+                    input,
+                    button{
+                        font-size: 1.8rem;
+                        height: 50px;
+                        width: 316px;
+                        text-align: center;
+                        margin-bottom: 16px;
+                        border-radius: 8px;
+                    }
+                    input{
+                        background-color: #BCBCBC;
+                    }
+                    button{
+                        background-color: $green-75;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .social-media-content{
+            display: flex;
+            gap: 60px;
+            justify-content: center;
+            figure{
+                width: 60px;
+                height: 60px;
+                img{
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
 //#region Estilos genericos
 a{
     color: $black;
@@ -566,5 +669,13 @@ a{
 }
 a:hover{
     text-decoration: underline;
+}
+
+.hr{
+    border-radius: 50px;
+    height: 2px;
+    background: #ccc;
+    border: none;
+    margin-bottom: 28px;
 }
 //#endregion

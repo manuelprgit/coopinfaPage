@@ -483,6 +483,101 @@ a {
   font-size: 1.6rem;
 }
 
+footer {
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+}
+footer .foot-content {
+  max-width: 1500px;
+  width: 100%;
+}
+footer .foot-content .company-info-data {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 32px;
+}
+footer .foot-content .company-info-data .info-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .foot-content .company-info-data .info-container figure {
+  width: 52px;
+  height: 52px;
+}
+footer .foot-content .company-info-data .info-container figure img {
+  object-fit: contain;
+}
+footer .foot-content .company-info-data .info-container a,
+footer .foot-content .company-info-data .info-container p {
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+}
+footer .foot-content .bottom-content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 24px;
+}
+footer .foot-content .bottom-content .institutions-content {
+  display: flex;
+  flex-direction: column;
+}
+footer .foot-content .bottom-content .institutions-content h4,
+footer .foot-content .bottom-content .institutions-content a {
+  color: white;
+  font-size: 1.8rem;
+  margin-bottom: 24px;
+}
+footer .foot-content .bottom-content .institutions-content h4 {
+  font-weight: 600;
+}
+footer .foot-content .bottom-content .institutions-content a {
+  font-weight: 300;
+}
+footer .foot-content .bottom-content .subscribes-content form {
+  display: flex;
+  flex-direction: column;
+}
+footer .foot-content .bottom-content .subscribes-content form h4 {
+  color: white;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 24px;
+}
+footer .foot-content .bottom-content .subscribes-content form input,
+footer .foot-content .bottom-content .subscribes-content form button {
+  font-size: 1.8rem;
+  height: 50px;
+  width: 316px;
+  text-align: center;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+footer .foot-content .bottom-content .subscribes-content form input {
+  background-color: #BCBCBC;
+}
+footer .foot-content .bottom-content .subscribes-content form button {
+  background-color: #008000;
+  color: white;
+}
+footer .foot-content .social-media-content {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+footer .foot-content .social-media-content figure {
+  width: 60px;
+  height: 60px;
+}
+footer .foot-content .social-media-content figure img {
+  object-fit: contain;
+}
+
 a {
   color: #484848;
   text-decoration: none;
@@ -491,6 +586,14 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.hr {
+  border-radius: 50px;
+  height: 2px;
+  background: #ccc;
+  border: none;
+  margin-bottom: 28px;
 }
 
 /*# sourceMappingURL=main.css.map */
