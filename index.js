@@ -14,6 +14,10 @@ app.get('/',(req,res) => {
   res.render('home');
 });
 
+app.get('/nosotros',(req,res) => {
+  res.render('nosotros');
+});
+
 app.listen(port,() => {
   console.log(`listening on http://localhost:${port}`)
 })
