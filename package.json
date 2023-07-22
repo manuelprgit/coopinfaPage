@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --watch ./public/sass/main.scss:./public/css/main.css",
+    "sass-consult": "sass --watch ./public/sass/consulting.scss:./public/css/consulting.css",
+
     "dev": "nodemon ."
   },
   "nodemonConfig": {

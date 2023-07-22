@@ -1,0 +1,71 @@
+$white: #EBEBEB;
+$black: #484848;
+
+$background-division: #F8F8F8;
+
+$grey: #677183;
+$blue: #3FB6FF;
+$blue-soft: #D7F0FF;
+$red: #FF4858;
+$red-soft: #FFE0E3;
+$orange: #CE8501;
+$orange-soft: #FFDB9B;
+
+$green-15: #CCFF33;
+$green-25: #9EF01A;
+$green-50: #70E000;
+$green-75: #008000;
+$green-100: #006400;
+
+$background-layer: #0000007d; 
+$footer-backgroud: #222222;
+
+.page-content{
+    .cooper-net{
+        padding: 60px;
+
+        .coop-content{
+            display: flex;
+            justify-content: space-evenly;
+
+            .consult-content{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                h2{
+                    font-size: 2.5rem; 
+                    margin-bottom: 30px;
+                    font-weight: 500;
+                }
+                figure{
+                    width: 300px;
+                    height: 300px;
+                    margin-bottom: 40px;
+
+                    img{
+                        object-fit: contain;
+                    }
+                }
+                button{
+                    cursor: pointer;
+                    background-color: $green-75;
+                    color: white;
+                    border:none;
+                    border-radius: 8px;
+                    height: 60px;
+                    width: 220px;
+                    font-weight: 600;
+                    font-size: 2rem;
+                }
+                button:hover{
+                    background-color: #006f00;
+                }   
+                button:active{
+                    background-color: #016601;
+                }
+
+            }
+        }
+    }
+}

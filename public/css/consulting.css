@@ -1,0 +1,44 @@
+.page-content .cooper-net {
+  padding: 60px;
+}
+.page-content .cooper-net .coop-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.page-content .cooper-net .coop-content .consult-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.page-content .cooper-net .coop-content .consult-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.page-content .cooper-net .coop-content .consult-content figure {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 40px;
+}
+.page-content .cooper-net .coop-content .consult-content figure img {
+  object-fit: contain;
+}
+.page-content .cooper-net .coop-content .consult-content button {
+  cursor: pointer;
+  background-color: #008000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  height: 60px;
+  width: 220px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.page-content .cooper-net .coop-content .consult-content button:hover {
+  background-color: #006f00;
+}
+.page-content .cooper-net .coop-content .consult-content button:active {
+  background-color: #016601;
+}
+
+/*# sourceMappingURL=consulting.css.map */

@@ -557,6 +557,7 @@ footer .foot-content .bottom-content .subscribes-content form button {
   text-align: center;
   margin-bottom: 16px;
   border-radius: 8px;
+  border: none;
 }
 footer .foot-content .bottom-content .subscribes-content form input {
   background-color: #BCBCBC;
@@ -564,6 +565,7 @@ footer .foot-content .bottom-content .subscribes-content form input {
 footer .foot-content .bottom-content .subscribes-content form button {
   background-color: #008000;
   color: white;
+  cursor: pointer;
 }
 footer .foot-content .social-media-content {
   display: flex;
@@ -571,11 +573,24 @@ footer .foot-content .social-media-content {
   justify-content: center;
 }
 footer .foot-content .social-media-content figure {
-  width: 60px;
-  height: 60px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
 }
 footer .foot-content .social-media-content figure img {
   object-fit: contain;
+}
+footer .foot-content .social-media-content figure:hover {
+  opacity: 1;
+}
+
+.active {
+  transform: translateY(-3px);
+  background: #38b000;
+  color: white;
+  text-decoration: none;
 }
 
 a {

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/consulting.css">
+    {{> head_links}}
+</head>
+
+<body>
+    <div class="page-content">
+        <section class="head-section">
+            <div class="layer"></div>
+            <img src="./src/img/nature.jpg" alt="" class="img-fondo">
+            {{> head}}
+            <div class="text-content">
+                <h1>Cooperativa de Ahorros, Créditos y Servicios Múltiples de los Integrantes de las Fuerzas Armadas
+                </h1>
+            </div>
+        </section>
+
+        <section class="cooper-net">
+            <div class="coop-content">
+
+                <div class="consult-content">
+                    <h2>Necesitas ayuda?</h2>
+                    <figure>
+                        <img src="./src/img/usermanual.png" alt="">
+                    </figure>
+                    <button id="viewIntructor">Ver instructivo</button>
+                </div>
+                <div class="consult-content">
+                    <h2>Visita nuestra consulta web</h2>
+                    <figure>
+                        <img src="./src/img/laptop-coopernet.png" alt="">
+                    </figure>
+                    <button id="viewIntructor">Visitar</button>
+                </div>
+                
+            </div>
+        </section>
+
+    {{> footer}}
+    </div>
+    <script>
+        document.querySelector('a[href="oficina-virtual"]').classList.add('active');
+    </script>
+</body>
+
+</html>

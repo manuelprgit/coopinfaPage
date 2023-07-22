@@ -18,6 +18,10 @@ app.get('/nosotros',(req,res) => {
   res.render('nosotros');
 });
 
+app.get('/oficina-virtual',(req,res) => {
+  res.render('oficina-virtual');  
+})
+
 app.listen(port,() => {
   console.log(`listening on http://localhost:${port}`)
 })

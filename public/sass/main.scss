@@ -635,13 +635,15 @@ footer{
                         text-align: center;
                         margin-bottom: 16px;
                         border-radius: 8px;
-                    }
+                        border:none;
+                    } 
                     input{
                         background-color: #BCBCBC;
                     }
                     button{
                         background-color: $green-75;
                         color: white;
+                        cursor: pointer;
                     }
                 }
             }
@@ -651,17 +653,30 @@ footer{
             gap: 60px;
             justify-content: center;
             figure{
-                width: 60px;
-                height: 60px;
+                width: 32px;
+                height: 32px;
+                cursor: pointer;
+                opacity: 0.8;
+                transition: 0.3s;
                 img{
                     object-fit: contain;
                 }
+            }
+            figure:hover{
+                opacity: 1;
             }
         }
     }
 }
 
 //#region Estilos genericos
+.active{
+    transform: translateY(-3px);
+    background: #38b000; 
+    color: white;
+    text-decoration: none;
+}
+
 a{
     color: $black;
     text-decoration: none;
