@@ -22,6 +22,11 @@ app.get('/oficina-virtual',(req,res) => {
   res.render('oficina-virtual');  
 })
 
+app.get('/getBlogById',(req,res) => {
+  res.render('getBlogById');  
+})
+
+
 app.listen(port,() => {
   console.log(`listening on http://localhost:${port}`)
 })

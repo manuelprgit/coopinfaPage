@@ -294,6 +294,9 @@ a {
   transform: translateY(-14px);
   box-shadow: 0px 12px 28px 4px rgba(0, 0, 0, 0.3137254902);
 }
+.page-content .news-section .news-content .news-content .news-card:active {
+  transform: translateY(-8px);
+}
 .page-content .news-section .news-content .visit-us {
   margin-bottom: 0;
   margin-top: 38px;

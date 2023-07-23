@@ -105,8 +105,8 @@
             <div class="news-content">
                 <h3 class="our-blog">Nuestro blog</h3>
                 <h2 class="recent-news">Noticias recientes</h2>
-                <div class="news-content">
-                    <div class="news-card">
+                <div class="news-content" id="blogContent">
+                    <div class="news-card" data-blogId="0">
                         <figure class="img-news">
                             <img src="./src/img/donacion.png" alt="">
                         </figure>
@@ -131,7 +131,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="news-card">
+                    <div class="news-card" data-blogId="1">
                         <figure class="img-news">
                             <img src="./src/img/charla.png" alt="">
                         </figure>
@@ -156,7 +156,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="news-card">
+                    <div class="news-card" data-blogId="2">
                         <figure class="img-news">
                             <img src="./src/img/aprueban.png" alt="">
                         </figure>
@@ -213,5 +213,6 @@
     <script>
         document.querySelector('a[href="/"]').classList.add('active');
     </script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
